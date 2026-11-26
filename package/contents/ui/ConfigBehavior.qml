@@ -114,12 +114,14 @@ KCM.SimpleKCM {
 
         Label {
             text: i18n('<a href="https://github.com/DoYouKnowMyNamePlz/spaceume">GitHub Repository</a>')
+            textFormat: Text.RichText
             linkActivationEnabled: true
             onLinkActivated: Qt.openUrlExternally(link)
         }
 
         Label {
             text: i18n('<a href="https://github.com/DoYouKnowMyNamePlz/spaceume/issues">Get Help / Report Issues</a>')
+            textFormat: Text.RichText
             linkActivationEnabled: true
             onLinkActivated: Qt.openUrlExternally(link)
         }
