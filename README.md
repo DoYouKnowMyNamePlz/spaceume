@@ -35,7 +35,7 @@ Open Plasma's **Add Widgets** dialog, click **Get New Widgets**, search for **Sp
    ./install.sh
    ```
 
-   This copies the plasmoid to `~/.local/share/plasma/plasmoids/com.github.eatsu.spaceume/`.
+   This copies the plasmoid to `~/.local/share/plasma/plasmoids/com.github.DoYouKnowMyNamePlz.spaceume/`.
 
 3. Add Spaceume to your panel:
    - Right-click your panel → **Add Widgets**
@@ -50,7 +50,7 @@ kpackagetool6 -t Plasma/Applet -i package/
 To remove:
 
 ```bash
-kpackagetool6 -t Plasma/Applet -r com.github.eatsu.spaceume
+kpackagetool6 -t Plasma/Applet -r com.github.DoYouKnowMyNamePlz.spaceume
 ```
 
 ## Configuration

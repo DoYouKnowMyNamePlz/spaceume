@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PLASMOID_ID="com.github.eatsu.spaceume"
+PLASMOID_ID="com.github.DoYouKnowMyNamePlz.spaceume"
 INSTALL_DIR="$HOME/.local/share/plasma/plasmoids/$PLASMOID_ID"
 SOURCE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/package"
 

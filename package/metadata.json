@@ -11,7 +11,7 @@
         "Description": "A panel spacer that controls audio volume via scroll and middle-click. Originally based on plasmoid-spacer-as-pager by eatsu. Attribution: https://store.kde.org/u/eatsu and https://github.com/eatsu/plasmoid-spacer-as-pager",
         "EnabledByDefault": true,
         "Icon": "audio-volume-high",
-        "Id": "com.github.eatsu.spaceume",
+        "Id": "com.github.DoYouKnowMyNamePlz.spaceume",
         "License": "GPL-2.0+",
         "Name": "Spaceume",
         "Version": "1.0.0"
