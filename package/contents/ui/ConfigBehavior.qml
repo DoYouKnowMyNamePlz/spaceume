@@ -102,5 +102,26 @@ KCM.SimpleKCM {
             placeholderText: commandHintText
             visible: rightClickAction.currentIndex === 7
         }
+
+        Item {
+            Kirigami.FormData.isSection: true
+        }
+
+        Label {
+            text: i18n("About Spaceume")
+            font.bold: true
+        }
+
+        Label {
+            text: i18n('<a href="https://github.com/DoYouKnowMyNamePlz/spaceume">GitHub Repository</a>')
+            linkActivationEnabled: true
+            onLinkActivated: Qt.openUrlExternally(link)
+        }
+
+        Label {
+            text: i18n('<a href="https://github.com/DoYouKnowMyNamePlz/spaceume/issues">Get Help / Report Issues</a>')
+            linkActivationEnabled: true
+            onLinkActivated: Qt.openUrlExternally(link)
+        }
     }
 }
