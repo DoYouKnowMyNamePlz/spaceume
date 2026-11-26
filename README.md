@@ -8,6 +8,10 @@ Originally based on [plasmoid-spacer-as-pager by eatsu](https://github.com/eatsu
 
 ![Spaceume Volume Control](Spaceume-Volume.png)
 
+![Configure Appearance](Settings-Appearance.png)
+
+![Configure Behavior](Settings-Behavior.png)
+
 ## Features
 
 - Expandable panel spacer (takes all available space or a fixed length)
