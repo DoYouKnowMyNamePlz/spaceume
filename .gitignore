@@ -1,0 +1,6 @@
+*.plasmoid
+*.tar.gz
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
