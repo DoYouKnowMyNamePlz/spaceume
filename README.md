@@ -73,3 +73,5 @@ GPL-2.0-or-later. See [LICENSE](LICENSE).
 ## Attribution
 
 Originally based on [plasmoid-spacer-as-pager](https://github.com/eatsu/plasmoid-spacer-as-pager) by [eatsu](https://store.kde.org/u/eatsu).
+
+Icon by [Josy Dom Alexis](https://pixabay.com/users/josy_dom_alexis-487968/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1628258) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1628258).
