@@ -1,34 +1,34 @@
 # Spaceume
 
-A Plasma 6 panel spacer that controls audio volume via scroll wheel and middle-click.
+A Plasma 6 panel spacer that controls system audio volume via scroll wheel and middle-click.
 
-Spaceume adds an expandable spacer to your KDE Plasma panel. When hovered, scrolling changes the system volume and middle-click toggles mute. It also supports configurable left/middle/right click actions (Show Desktop, Overview, Grid View, Expose, Run Command, etc.).
+Spaceume adds an expandable spacer to your KDE Plasma panel. When you hover over it, scrolling raises or lowers the volume and middle-click toggles mute. You can also configure left, middle, and right-click actions (Show Desktop, Overview, Grid View, Expose, Run Command, etc.) and run a custom command on click.
 
 Originally based on [plasmoid-spacer-as-pager by eatsu](https://github.com/eatsu/plasmoid-spacer-as-pager). Attribution: [eatsu on KDE Store](https://store.kde.org/u/eatsu) and [plasmoid-spacer-as-pager on GitHub](https://github.com/eatsu/plasmoid-spacer-as-pager).
 
+![Spaceume Volume Control](Spaceume-Volume.png)
+
 ## Features
 
-- Expandable panel spacer (takes all available space or fixed length)
+- Expandable panel spacer (takes all available space or a fixed length)
 - Scroll up/down to raise/lower volume (only when hovered)
 - Middle-click to toggle mute (only when hovered)
 - Configurable click actions for left, middle, and right mouse buttons
 - Optional command execution on click
-- Configuration via right-click → Configure Spaceume
-
-## Screenshot
-
-![Spaceume Volume Control](Spaceume-Volume.png)
+- Configure via right-click → Configure Spaceume
 
 ## Installation
 
 ### Option 1: Install from the KDE Store (recommended)
 
-Open Plasma's **Add Widgets** dialog, click **Get New Widgets**, search for **Spaceume**, and install it.
+1. Open Plasma's **Add Widgets** dialog.
+2. Click **Get New Widgets**.
+3. Search for **Spaceume** and install it.
 
 ### Option 2: Manual install from this repository
 
 1. Download or clone this repository.
-2. Run the install script:
+2. Make the install script executable and run it:
 
    ```bash
    chmod +x install.sh
@@ -59,24 +59,6 @@ Right-click the Spaceume spacer on your panel and select **Configure Spaceume** 
 
 - **Appearance**: expanding mode, fixed length
 - **Behavior**: enable volume control, volume step, click actions and commands for left/middle/right clicks
-
-## Building the .plasmoid package
-
-From the repository root:
-
-```bash
-cd package
-python3 -c "
-import zipfile, os
-with zipfile.ZipFile('../spaceume-1.0.0.plasmoid', 'w', zipfile.ZIP_DEFLATED) as z:
-    for root, dirs, files in os.walk('.'):
-        for f in files:
-            p = os.path.join(root, f)
-            z.write(p, p.lstrip('./'))
-"
-```
-
-This produces `spaceume-1.0.0.plasmoid`, which can be uploaded to the KDE Store or installed with `kpackagetool6`.
 
 ## Requirements
 
