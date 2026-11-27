@@ -10,6 +10,7 @@ import QtQuick.Layouts 1.15
 
 import org.kde.kirigami 2.19 as Kirigami
 import org.kde.kcmutils as KCM
+import org.kde.plasma.plasmoid 2.0
 
 KCM.SimpleKCM {
     property alias cfg_expanding: expanding.checked
